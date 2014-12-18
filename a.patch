@@ -1,0 +1,14 @@
+diff --git a/utils.h b/utils.h
+new file mode 100644
+index 0000000..2c92e09
+--- /dev/null
++++ b/utils.h
+@@ -0,0 +1,8 @@
++#ifndef _UTILS_H
++#define _UTILS_H
++
++int func1(int a);
++int func2(void);
++void func3(char *);
++
++#endif
