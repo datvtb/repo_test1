@@ -1,8 +1,11 @@
-/TODO
-
-visible/
-
-# all hidden files and directories
+# all hidden files and directories except this file
 .*
+!/.gitignore
 
-doc/**/*.txt
+# all txt file in doc
+doc/*.txt
+
+# out directory
+out/
+
+/TODO
